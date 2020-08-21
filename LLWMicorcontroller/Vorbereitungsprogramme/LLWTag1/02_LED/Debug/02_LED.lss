@@ -1,0 +1,154 @@
+
+02_LED.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000000a4  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00800060  00800060  000000f8  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .comment      00000030  00000000  00000000  000000f8  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  00000128  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000020  00000000  00000000  00000164  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   000005aa  00000000  00000000  00000184  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 0000052e  00000000  00000000  0000072e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   000001aa  00000000  00000000  00000c5c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000024  00000000  00000000  00000e08  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    00000312  00000000  00000000  00000e2c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_ranges 00000010  00000000  00000000  0000113e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 2a 00 	jmp	0x54	; 0x54 <__ctors_end>
+   4:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+   8:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+   c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  10:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  14:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  18:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  1c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  20:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  24:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  28:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  2c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  30:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  34:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  38:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  3c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  40:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  44:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  48:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  4c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  50:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+
+00000054 <__ctors_end>:
+  54:	11 24       	eor	r1, r1
+  56:	1f be       	out	0x3f, r1	; 63
+  58:	cf e5       	ldi	r28, 0x5F	; 95
+  5a:	d4 e0       	ldi	r29, 0x04	; 4
+  5c:	de bf       	out	0x3e, r29	; 62
+  5e:	cd bf       	out	0x3d, r28	; 61
+  60:	0e 94 36 00 	call	0x6c	; 0x6c <main>
+  64:	0c 94 50 00 	jmp	0xa0	; 0xa0 <_exit>
+
+00000068 <__bad_interrupt>:
+  68:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+0000006c <main>:
+#include <util/delay.h>
+
+int main(void)
+{
+
+	PORTA = 0x0F;
+  6c:	8f e0       	ldi	r24, 0x0F	; 15
+  6e:	8b bb       	out	0x1b, r24	; 27
+	// PROTC (LEDS) auf Ausgang setzen
+	DDRC = 0xff;
+  70:	8f ef       	ldi	r24, 0xFF	; 255
+  72:	84 bb       	out	0x14, r24	; 20
+
+	// PORTA (Taster) auf Eingang setzen
+	DDRA = 0x00;
+  74:	1a ba       	out	0x1a, r1	; 26
+	
+	while (1)
+	{
+		// Taster 0
+		if(!(PINA & 0b00000001))
+  76:	c8 99       	sbic	0x19, 0	; 25
+  78:	02 c0       	rjmp	.+4      	; 0x7e <main+0x12>
+		{
+			//		0b???????0
+			//	   |0b00000001
+			//	   -----------
+			// 	   =0b???????1
+			PORTC |= 0b0000001;
+  7a:	a8 9a       	sbi	0x15, 0	; 21
+  7c:	01 c0       	rjmp	.+2      	; 0x80 <main+0x14>
+		}
+		else
+		{
+			PORTC &= ~0b00000001;
+  7e:	a8 98       	cbi	0x15, 0	; 21
+		}
+		// Taster 1
+		
+		if(!(PINA & 0b00000010))
+  80:	c9 99       	sbic	0x19, 1	; 25
+  82:	02 c0       	rjmp	.+4      	; 0x88 <main+0x1c>
+		{
+			PORTC |= 0b0000010;
+  84:	a9 9a       	sbi	0x15, 1	; 21
+  86:	01 c0       	rjmp	.+2      	; 0x8a <main+0x1e>
+		}
+		else
+		{
+			PORTC &= ~0b00000010;
+  88:	a9 98       	cbi	0x15, 1	; 21
+		}
+			// Taster 2
+		if(!(PINA & 0b00000100))
+  8a:	ca 99       	sbic	0x19, 2	; 25
+  8c:	02 c0       	rjmp	.+4      	; 0x92 <main+0x26>
+		{
+			PORTC |= 0b00000100;
+  8e:	aa 9a       	sbi	0x15, 2	; 21
+  90:	01 c0       	rjmp	.+2      	; 0x94 <main+0x28>
+		}
+		else
+		{
+			PORTC &= ~0b00000100;
+  92:	aa 98       	cbi	0x15, 2	; 21
+		}
+		
+			// Taster 3
+		if(!(PINA & 0b00001000))
+  94:	cb 99       	sbic	0x19, 3	; 25
+  96:	02 c0       	rjmp	.+4      	; 0x9c <main+0x30>
+		{
+			PORTC |= 0b00001000;
+  98:	ab 9a       	sbi	0x15, 3	; 21
+  9a:	ed cf       	rjmp	.-38     	; 0x76 <main+0xa>
+		}
+		else
+		{
+			PORTC &= ~0b00001000;
+  9c:	ab 98       	cbi	0x15, 3	; 21
+  9e:	eb cf       	rjmp	.-42     	; 0x76 <main+0xa>
+
+000000a0 <_exit>:
+  a0:	f8 94       	cli
+
+000000a2 <__stop_program>:
+  a2:	ff cf       	rjmp	.-2      	; 0xa2 <__stop_program>
