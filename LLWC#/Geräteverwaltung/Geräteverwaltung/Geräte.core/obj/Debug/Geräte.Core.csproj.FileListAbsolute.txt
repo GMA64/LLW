@@ -1,0 +1,6 @@
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\Geräteverwaltung\Geräteverwaltung\Geräte.core\bin\Debug\Geräte.core.dll
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\Geräteverwaltung\Geräteverwaltung\Geräte.core\bin\Debug\Geräte.core.pdb
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\Geräteverwaltung\Geräteverwaltung\Geräte.core\obj\Debug\Geräte.Core.csprojAssemblyReference.cache
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\Geräteverwaltung\Geräteverwaltung\Geräte.core\obj\Debug\Geräte.Core.csproj.CoreCompileInputs.cache
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\Geräteverwaltung\Geräteverwaltung\Geräte.core\obj\Debug\Geräte.core.dll
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\Geräteverwaltung\Geräteverwaltung\Geräte.core\obj\Debug\Geräte.core.pdb

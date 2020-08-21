@@ -1,0 +1,9 @@
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\Geräteverwaltung\Geräteverwaltung\Geräte.Validation\bin\Debug\Geräte.Validation.dll
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\Geräteverwaltung\Geräteverwaltung\Geräte.Validation\bin\Debug\Geräte.Validation.pdb
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\Geräteverwaltung\Geräteverwaltung\Geräte.Validation\bin\Debug\Geräte.core.dll
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\Geräteverwaltung\Geräteverwaltung\Geräte.Validation\bin\Debug\Geräte.core.pdb
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\Geräteverwaltung\Geräteverwaltung\Geräte.Validation\obj\Debug\Geräte.Validation.csprojAssemblyReference.cache
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\Geräteverwaltung\Geräteverwaltung\Geräte.Validation\obj\Debug\Geräte.Validation.csproj.CoreCompileInputs.cache
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\Geräteverwaltung\Geräteverwaltung\Geräte.Validation\obj\Debug\Geräte.Validation.csproj.CopyComplete
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\Geräteverwaltung\Geräteverwaltung\Geräte.Validation\obj\Debug\Geräte.Validation.dll
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\Geräteverwaltung\Geräteverwaltung\Geräte.Validation\obj\Debug\Geräte.Validation.pdb
