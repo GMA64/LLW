@@ -1,0 +1,12 @@
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Data\bin\Debug\Netzwerkverwaltung.Data.dll
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Data\bin\Debug\Netzwerkverwaltung.Data.pdb
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Data\obj\Debug\Netzwerkverwaltung.Data.csprojAssemblyReference.cache
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Data\obj\Debug\Netzwerkverwaltung.Data.csproj.CoreCompileInputs.cache
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Data\obj\Debug\Netzwerkverwaltung.Data.dll
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Data\obj\Debug\Netzwerkverwaltung.Data.pdb
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Data\bin\Debug\Netzwerkverwaltung.Data.dll.config
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Data\bin\Debug\EntityFramework.dll
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Data\bin\Debug\EntityFramework.xml
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Data\obj\Debug\Netzwerkverwaltung.Data.csproj.CopyComplete

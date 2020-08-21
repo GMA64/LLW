@@ -1,0 +1,15 @@
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Validation\bin\Debug\Netzwerkverwaltung.Validation.dll
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Validation\bin\Debug\Netzwerkverwaltung.Validation.pdb
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Validation\bin\Debug\Netzwerkverwaltung.Data.dll
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Validation\bin\Debug\Netzwerkverwaltung.Data.pdb
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Validation\obj\Debug\Netzwerkverwaltung.Validation.csprojAssemblyReference.cache
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Validation\obj\Debug\Netzwerkverwaltung.Validation.csproj.CoreCompileInputs.cache
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Validation\obj\Debug\Netzwerkverwaltung.Validation.csproj.CopyComplete
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Validation\obj\Debug\Netzwerkverwaltung.Validation.dll
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Validation\obj\Debug\Netzwerkverwaltung.Validation.pdb
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Validation\bin\Debug\Netzwerkverwaltung.Validation.dll.config
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Validation\bin\Debug\EntityFramework.dll
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Validation\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Validation\bin\Debug\Netzwerkverwaltung.Data.dll.config
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Validation\bin\Debug\EntityFramework.xml
+C:\Users\lwngrmc\source\repos\LLWTest\C#Datenbanken\Netzwerkverwaltung\Netzwerkverwaltung.Validation\bin\Debug\EntityFramework.SqlServer.xml
