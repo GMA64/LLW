@@ -1,0 +1,6 @@
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Data\bin\Debug\Benutzer.Data.dll
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Data\bin\Debug\Benutzer.Data.pdb
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Data\obj\Debug\Benutzer.Data.csprojAssemblyReference.cache
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Data\obj\Debug\Benutzer.Data.csproj.CoreCompileInputs.cache
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Data\obj\Debug\Benutzer.Data.dll
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Data\obj\Debug\Benutzer.Data.pdb

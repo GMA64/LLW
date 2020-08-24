@@ -1,0 +1,12 @@
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Console\bin\Debug\Benutzer.Console.exe.config
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Console\bin\Debug\Benutzer.Console.exe
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Console\bin\Debug\Benutzer.Console.pdb
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Console\bin\Debug\Benutzer.Core.dll
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Console\bin\Debug\Benutzer.Data.dll
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Console\bin\Debug\Benutzer.Core.pdb
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Console\bin\Debug\Benutzer.Data.pdb
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Console\obj\Debug\Benutzer.Console.csprojAssemblyReference.cache
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Console\obj\Debug\Benutzer.Console.csproj.CoreCompileInputs.cache
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Console\obj\Debug\Benutzer.Console.csproj.CopyComplete
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Console\obj\Debug\Benutzer.Console.exe
+C:\Users\lwngrmc\Desktop\Lehrling Leistungs Wettbewerb\LLW\LLWC#\BenutzerverwaltungV2\Benutzer.Console\obj\Debug\Benutzer.Console.pdb
